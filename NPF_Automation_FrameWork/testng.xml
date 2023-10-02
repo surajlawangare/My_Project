@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Landling Page">
+	<listeners>
+		<listener class-name="Base.Listeners"></listener>
+	</listeners>
+	<test name="TestDemo">
+		<classes>
+			<class name="POM.RegistrationPage"></class>
+			<class name="POM.LoginPage"></class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [LoginPage]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="logintest(failed)">
+    <classes>
+      <class name="LoginPage.LoginTestDemo">
+        <methods>
+          <include name="Test17"/>
+          <include name="Test4"/>
+          <include name="Test12"/>
+          <include name="Test13"/>
+          <include name="Test10"/>
+          <include name="Test6"/>
+          <include name="Test5"/>
+          <include name="Test11"/>
+          <include name="teardown"/>
+          <include name="Test16"/>
+          <include name="Test8"/>
+          <include name="Test7"/>
+          <include name="setUp"/>
+          <include name="Test14"/>
+          <include name="Test15"/>
+          <include name="Test9"/>
+          <include name="Test18"/>
+          <include name="Test19"/>
+        </methods>
+      </class> <!-- LoginPage.LoginTestDemo -->
+    </classes>
+  </test> <!-- logintest(failed) -->
+</suite> <!-- Failed suite [LoginPage] -->

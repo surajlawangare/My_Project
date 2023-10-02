@@ -1,0 +1,159 @@
+package POM;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+import Base.BaseTest1;
+import utilities.Data;
+import utilities.Variables;
+
+public class LoginPage extends BaseTest1 {
+
+
+	@Test(priority=1, dataProviderClass = Data.class, dataProvider="Login") // Done
+	// On the login page, When we enter invalid email & password then the user should not be logged in.
+	
+	public void Test16 (String username, String password) throws InterruptedException {
+		
+		try {
+			WebElement existing_User = driver.findElement(By.xpath(loc.getProperty("existing_User")));
+			existing_User.click();
+			Thread.sleep(1000);
+			
+			WebElement login_Email = driver.findElement(By.xpath(loc.getProperty("login_Email")));
+			login_Email.clear();
+			login_Email.sendKeys(username);
+	
+			WebElement login_Password = driver.findElement(By.xpath(loc.getProperty("login_Password")));
+			login_Password.clear();
+			login_Password.sendKeys(password);
+
+			WebElement login_Button = driver.findElement(By.xpath(loc.getProperty("login_Button")));
+			login_Button.click();
+			Thread.sleep(1000);
+
+			driver.findElement(By.xpath(loc.getProperty("login_Button"))).isDisplayed();
+		}
+		finally
+		{
+			WebElement new_Registration = driver.findElement(By.xpath(loc.getProperty("new_Registration")));
+			new_Registration.click();
+			Thread.sleep(1000);
+		}
+	}
+	
+	
+	@Test(priority=2) // Done
+	// On the login page, When we enter valid email & password then the user should be logged in.
+
+	public void Test17() throws InterruptedException {
+		
+		WebElement existing_User = driver.findElement(By.xpath(loc.getProperty("existing_User")));
+		existing_User.click();
+		
+		WebElement login_Email = driver.findElement(By.xpath(loc.getProperty("login_Email")));
+		login_Email.sendKeys(Variables.email);
+
+		WebElement login_Password = driver.findElement(By.xpath(loc.getProperty("login_Password")));
+		login_Password.sendKeys(Variables.password);
+		
+		WebElement login_Button = driver.findElement(By.xpath(loc.getProperty("login_Button")));
+		login_Button.click();
+		Thread.sleep(500);
+		
+	    driver.findElement(By.xpath(loc.getProperty("my_Profile"))).isDisplayed();
+	}
+	
+	
+	@Test(priority=3) // Done
+	// When we enter unverified email then verification email should be sent.
+	
+	public void Test18() throws InterruptedException {
+		
+		WebElement resent_Verification_Email = driver.findElement(By.xpath(loc.getProperty("resent_Verification_Email")));
+		resent_Verification_Email.click();
+		Thread.sleep(500);
+		
+		WebElement verification_Email = driver.findElement(By.xpath(loc.getProperty("verification_Email")));
+		verification_Email.sendKeys(Variables.verification_Mail);
+		
+		WebElement submit_Button = driver.findElement(By.xpath(loc.getProperty("submit_Button")));
+		submit_Button.click();
+		Thread.sleep(500);
+		
+		driver.findElement(By.xpath(loc.getProperty("verification_Email_Sent"))).isDisplayed();
+	}
+	
+	
+	@Test (priority=4, dataProviderClass = Data.class, dataProvider="verifymail") // Done
+	// When we enter invalid email in the verify email field then the error message should be displayed.
+	
+	public void Test19(String verify_Email) throws InterruptedException {
+		
+		WebElement resent_Verification_Email = driver.findElement(By.xpath(loc.getProperty("resent_Verification_Email")));
+		resent_Verification_Email.click();
+		Thread.sleep(500);
+		
+		WebElement verification_Email = driver.findElement(By.xpath(loc.getProperty("verification_Email")));
+		verification_Email.sendKeys(verify_Email);
+		
+		WebElement submit_Button = driver.findElement(By.xpath(loc.getProperty("submit_Button")));
+		submit_Button.click();
+		Thread.sleep(500);
+		
+	    driver.findElement(By.xpath(loc.getProperty("verify_Email_Error"))).isDisplayed();
+	}
+	
+	
+	@Test(priority=5) // Done
+	// When we have entered registered email id in the forgot email field, we should receive OTP.
+	
+	public void Test20() throws InterruptedException {
+		
+		WebElement existing_User = driver.findElement(By.xpath(loc.getProperty("existing_User")));
+		existing_User.click();
+		Thread.sleep(500);
+		
+		WebElement forgot_Password = driver.findElement(By.xpath(loc.getProperty("forgot_Password")));
+		forgot_Password.click();
+		Thread.sleep(500);
+		
+		WebElement forget_Email = driver.findElement(By.xpath(loc.getProperty("forget_Email")));
+		forget_Email.sendKeys(Variables.email);
+		
+		WebElement forgot_Button = driver.findElement(By.xpath(loc.getProperty("forgot_Button")));
+		forgot_Button.click();
+		Thread.sleep(500);
+		
+		driver.findElement(By.xpath(loc.getProperty("forgot_Password_Text"))).isDisplayed();
+	}
+	
+	
+	@Test(priority=6, dataProviderClass = Data.class, dataProvider="forgotmail")
+	// When we have entered unregistered email id in the forgot email field then error message should display.
+	
+	public void Test21(String email) throws InterruptedException {
+		
+		WebElement existing_User = driver.findElement(By.xpath(loc.getProperty("existing_User")));
+		existing_User.click();
+		Thread.sleep(500);
+		
+		WebElement forgot_Password = driver.findElement(By.xpath(loc.getProperty("forgot_Password")));
+		forgot_Password.click();
+		Thread.sleep(500);
+		
+		WebElement forget_Email = driver.findElement(By.xpath(loc.getProperty("forget_Email")));
+		forget_Email.sendKeys(email);
+		Thread.sleep(500);
+		
+		WebElement forgot_Button = driver.findElement(By.xpath(loc.getProperty("forgot_Button")));
+		forgot_Button.click();
+		Thread.sleep(500);
+		
+	    driver.findElement(By.xpath(loc.getProperty("error_Forgot_Password"))).isDisplayed();
+	}
+	
+	
+}

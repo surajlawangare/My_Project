@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;TestCases&apos; to &apos;POM&apos;&#x0D;&#x0A;- Original project: &apos;NPF_Automation_FrameWork&apos;&#x0D;&#x0A;- Original element: &apos;NPF_Automation_FrameWork/src/test/java/TestCases&apos;&#x0D;&#x0A;- Renamed element: &apos;NPF_Automation_FrameWork/src/test/java/POM&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;TestCases&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/&lt;TestCases" name="POM" qualified="false" references="true" stamp="1684653042592" textual="false" version="1.0"/>
+</session>

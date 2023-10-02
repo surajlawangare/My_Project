@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="40" passed="31" failed="0" skipped="5">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-28T12:45:52 IST" name="Landling Page" finished-at="2023-08-28T12:51:40 IST" duration-ms="348282">
+    <groups>
+    </groups>
+    <test started-at="2023-08-28T12:45:52 IST" name="TestDemo" finished-at="2023-08-28T12:51:40 IST" duration-ms="348282">
+      <class name="POM.LoginPage">
+        <test-method signature="Test13(java.lang.String,java.lang.String)[pri:1, instance:POM.LoginPage@5032714f]" started-at="2023-08-28T12:50:28 IST" name="Test13" data-provider="Login" finished-at="2023-08-28T12:50:33 IST" duration-ms="5168" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[suraj.lavangare@nopaperforms.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc@1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test13 -->
+        <test-method signature="Test13(java.lang.String,java.lang.String)[pri:1, instance:POM.LoginPage@5032714f]" started-at="2023-08-28T12:50:33 IST" name="Test13" data-provider="Login" finished-at="2023-08-28T12:50:38 IST" duration-ms="5169" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test13 -->
+        <test-method signature="Test13(java.lang.String,java.lang.String)[pri:1, instance:POM.LoginPage@5032714f]" started-at="2023-08-28T12:50:38 IST" name="Test13" data-provider="Login" finished-at="2023-08-28T12:50:43 IST" duration-ms="4906" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test13 -->
+        <test-method signature="Test13(java.lang.String,java.lang.String)[pri:1, instance:POM.LoginPage@5032714f]" started-at="2023-08-28T12:50:43 IST" name="Test13" data-provider="Login" finished-at="2023-08-28T12:50:48 IST" duration-ms="4846" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[suraj.lavangare@nopaperforms.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test13 -->
+        <test-method signature="Test13(java.lang.String,java.lang.String)[pri:1, instance:POM.LoginPage@5032714f]" started-at="2023-08-28T12:50:48 IST" name="Test13" data-provider="Login" finished-at="2023-08-28T12:50:53 IST" duration-ms="4990" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test13 -->
+        <test-method signature="Test13(java.lang.String,java.lang.String)[pri:1, instance:POM.LoginPage@5032714f]" started-at="2023-08-28T12:50:53 IST" name="Test13" data-provider="Login" finished-at="2023-08-28T12:50:58 IST" duration-ms="5076" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test13 -->
+        <test-method signature="Test14()[pri:3, instance:POM.LoginPage@5032714f]" started-at="2023-08-28T12:50:58 IST" name="Test14" finished-at="2023-08-28T12:51:15 IST" duration-ms="17401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test14 -->
+        <test-method signature="Test15()[pri:4, instance:POM.LoginPage@5032714f]" started-at="2023-08-28T12:51:15 IST" name="Test15" finished-at="2023-08-28T12:51:17 IST" duration-ms="2061" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[TestCase Skipped]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: TestCase Skipped
+at POM.LoginPage.Test15(LoginPage.java:137)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test15 -->
+        <test-method signature="Test16(java.lang.String)[pri:5, instance:POM.LoginPage@5032714f]" started-at="2023-08-28T12:51:17 IST" name="Test16" data-provider="verifymail" finished-at="2023-08-28T12:51:19 IST" duration-ms="2056" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[suraj.com]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[TestCase Skipped]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: TestCase Skipped
+at POM.LoginPage.Test16(LoginPage.java:169)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test16 -->
+        <test-method signature="Test16(java.lang.String)[pri:5, instance:POM.LoginPage@5032714f]" started-at="2023-08-28T12:51:19 IST" name="Test16" data-provider="verifymail" finished-at="2023-08-28T12:51:21 IST" duration-ms="2047" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test123]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[TestCase Skipped]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: TestCase Skipped
+at POM.LoginPage.Test16(LoginPage.java:169)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test16 -->
+        <test-method signature="Test16(java.lang.String)[pri:5, instance:POM.LoginPage@5032714f]" started-at="2023-08-28T12:51:21 IST" name="Test16" data-provider="verifymail" finished-at="2023-08-28T12:51:23 IST" duration-ms="2048" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[TestCase Skipped]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: TestCase Skipped
+at POM.LoginPage.Test16(LoginPage.java:169)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test16 -->
+        <test-method signature="Test18(java.lang.String)[pri:6, instance:POM.LoginPage@5032714f]" started-at="2023-08-28T12:51:23 IST" name="Test18" data-provider="forgotmail" finished-at="2023-08-28T12:51:29 IST" duration-ms="5725" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mhjgf@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test18 -->
+        <test-method signature="Test18(java.lang.String)[pri:6, instance:POM.LoginPage@5032714f]" started-at="2023-08-28T12:51:29 IST" name="Test18" data-provider="forgotmail" finished-at="2023-08-28T12:51:35 IST" duration-ms="5554" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test18 -->
+        <test-method signature="Test18(java.lang.String)[pri:6, instance:POM.LoginPage@5032714f]" started-at="2023-08-28T12:51:35 IST" name="Test18" data-provider="forgotmail" finished-at="2023-08-28T12:51:40 IST" duration-ms="5332" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test18 -->
+      </class> <!-- POM.LoginPage -->
+      <class name="POM.RegistrationPage">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:POM.RegistrationPage@5b218417]" started-at="2023-08-28T12:45:42 IST" name="setUp" finished-at="2023-08-28T12:45:52 IST" duration-ms="10010" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Test2()[pri:1, instance:POM.RegistrationPage@5b218417]" started-at="2023-08-28T12:45:52 IST" name="Test2" finished-at="2023-08-28T12:49:27 IST" duration-ms="214748" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method signature="Test3(java.lang.String)[pri:2, instance:POM.RegistrationPage@5b218417]" started-at="2023-08-28T12:49:27 IST" name="Test3" data-provider="name" finished-at="2023-08-28T12:49:31 IST" duration-ms="3998" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test3 -->
+        <test-method signature="Test3(java.lang.String)[pri:2, instance:POM.RegistrationPage@5b218417]" started-at="2023-08-28T12:49:31 IST" name="Test3" data-provider="name" finished-at="2023-08-28T12:49:34 IST" duration-ms="2893" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test@#$%]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test3 -->
+        <test-method signature="Test3(java.lang.String)[pri:2, instance:POM.RegistrationPage@5b218417]" started-at="2023-08-28T12:49:34 IST" name="Test3" data-provider="name" finished-at="2023-08-28T12:49:36 IST" duration-ms="2516" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test3 -->
+        <test-method signature="Test4(java.lang.String)[pri:3, instance:POM.RegistrationPage@5b218417]" started-at="2023-08-28T12:49:36 IST" name="Test4" data-provider="email" finished-at="2023-08-28T12:49:39 IST" duration-ms="2673" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test4 -->
+        <test-method signature="Test4(java.lang.String)[pri:3, instance:POM.RegistrationPage@5b218417]" started-at="2023-08-28T12:49:39 IST" name="Test4" data-provider="email" finished-at="2023-08-28T12:49:42 IST" duration-ms="2945" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[@&^%#$%]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test4 -->
+        <test-method signature="Test4(java.lang.String)[pri:3, instance:POM.RegistrationPage@5b218417]" started-at="2023-08-28T12:49:42 IST" name="Test4" data-provider="email" finished-at="2023-08-28T12:49:45 IST" duration-ms="3036" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test@.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test4 -->
+        <test-method signature="Test4(java.lang.String)[pri:3, instance:POM.RegistrationPage@5b218417]" started-at="2023-08-28T12:49:45 IST" name="Test4" data-provider="email" finished-at="2023-08-28T12:49:48 IST" duration-ms="3287" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test@ytai78l.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test4 -->
+        <test-method signature="Test4(java.lang.String)[pri:3, instance:POM.RegistrationPage@5b218417]" started-at="2023-08-28T12:49:48 IST" name="Test4" data-provider="email" finished-at="2023-08-28T12:49:51 IST" duration-ms="3203" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7654324566]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test4 -->
+        <test-method signature="Test4(java.lang.String)[pri:3, instance:POM.RegistrationPage@5b218417]" started-at="2023-08-28T12:49:51 IST" name="Test4" data-provider="email" finished-at="2023-08-28T12:49:55 IST" duration-ms="3254" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test4 -->
+        <test-method signature="Test5(java.lang.String,java.lang.String)[pri:4, instance:POM.RegistrationPage@5b218417]" started-at="2023-08-28T12:49:55 IST" name="Test5" data-provider="countrycode" finished-at="2023-08-28T12:49:58 IST" duration-ms="2929" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[$('#ul_dial_codeMobile li[data-value="+244"]').click();
+]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[7556]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test5 -->
+        <test-method signature="Test5(java.lang.String,java.lang.String)[pri:4, instance:POM.RegistrationPage@5b218417]" started-at="2023-08-28T12:49:58 IST" name="Test5" data-provider="countrycode" finished-at="2023-08-28T12:50:01 IST" duration-ms="3085" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[$('#ul_dial_codeMobile li[data-value="+91"]').click();
+]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[7667]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test5 -->
+        <test-method signature="Test5(java.lang.String,java.lang.String)[pri:4, instance:POM.RegistrationPage@5b218417]" started-at="2023-08-28T12:50:01 IST" name="Test5" data-provider="countrycode" finished-at="2023-08-28T12:50:03 IST" duration-ms="2754" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[$('#ul_dial_codeMobile li[data-value="+91"]').click();
+]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test5 -->
+        <test-method signature="Test6()[pri:5, instance:POM.RegistrationPage@5b218417]" started-at="2023-08-28T12:50:03 IST" name="Test6" finished-at="2023-08-28T12:50:04 IST" duration-ms="1074" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[TestCase Skipped]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: TestCase Skipped
+at POM.RegistrationPage.Test6(RegistrationPage.java:236)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test6 -->
+        <test-method signature="Test7()[pri:6, instance:POM.RegistrationPage@5b218417]" started-at="2023-08-28T12:50:04 IST" name="Test7" finished-at="2023-08-28T12:50:07 IST" duration-ms="2579" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test7 -->
+        <test-method signature="Test8()[pri:7, instance:POM.RegistrationPage@5b218417]" started-at="2023-08-28T12:50:07 IST" name="Test8" finished-at="2023-08-28T12:50:11 IST" duration-ms="3951" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test8 -->
+        <test-method signature="Test_19()[pri:8, instance:POM.RegistrationPage@5b218417]" started-at="2023-08-28T12:50:11 IST" name="Test_19" finished-at="2023-08-28T12:50:14 IST" duration-ms="2541" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_19 -->
+        <test-method signature="Test9()[pri:9, instance:POM.RegistrationPage@5b218417]" started-at="2023-08-28T12:50:14 IST" name="Test9" finished-at="2023-08-28T12:50:16 IST" duration-ms="2580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test9 -->
+        <test-method signature="Test10()[pri:10, instance:POM.RegistrationPage@5b218417]" started-at="2023-08-28T12:50:16 IST" name="Test10" finished-at="2023-08-28T12:50:20 IST" duration-ms="3562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test10 -->
+        <test-method signature="Test11(java.lang.String)[pri:11, instance:POM.RegistrationPage@5b218417]" started-at="2023-08-28T12:50:20 IST" name="Test11" data-provider="captcha" finished-at="2023-08-28T12:50:23 IST" duration-ms="3013" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test11 -->
+        <test-method signature="Test11(java.lang.String)[pri:11, instance:POM.RegistrationPage@5b218417]" started-at="2023-08-28T12:50:23 IST" name="Test11" data-provider="captcha" finished-at="2023-08-28T12:50:26 IST" duration-ms="2908" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test11 -->
+        <test-method signature="Test12()[pri:12, instance:POM.RegistrationPage@5b218417]" started-at="2023-08-28T12:50:26 IST" name="Test12" finished-at="2023-08-28T12:50:28 IST" duration-ms="2012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test12 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:POM.RegistrationPage@5b218417]" started-at="2023-08-28T12:51:40 IST" name="teardown" finished-at="2023-08-28T12:51:41 IST" duration-ms="347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- POM.RegistrationPage -->
+    </test> <!-- TestDemo -->
+  </suite> <!-- Landling Page -->
+</testng-results>
