@@ -26,10 +26,6 @@ public class LoginPage extends BaseTest1 {
 	// On the login page, When we enter invalid email & password then the user should not be logged in.
 	
 	public void Test13 (String username, String password) throws InterruptedException {
-		
-//		    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-//		    WebElement existing_User;
-//			existing_User = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(loc.getProperty("existing_User"))));
 		   
 		     Thread.sleep(2000);
 		     SoftAssert softassert = new SoftAssert();
