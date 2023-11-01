@@ -103,7 +103,7 @@ public class LoginPage extends BaseTest1 {
 	}
 	
 	
-	@Test(priority=4) // This testcase will be skip 
+	@Test(priority=4)
 	// When we enter unverified email then verification email should be sent.
 	
 	public void Test15() throws InterruptedException {
