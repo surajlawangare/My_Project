@@ -8,7 +8,9 @@
           <include name="Test16" invocation-numbers="0 1 2"/>
           <include name="teardown"/>
           <include name="setUp"/>
+          <include name="Test14"/>
           <include name="Test15"/>
+          <include name="Test18" invocation-numbers="0 1 2"/>
         </methods>
       </class> <!-- POM.LoginPage -->
     </classes>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="15" passed="10" failed="0" skipped="4">
+<testng-results ignored="1" total="15" passed="6" failed="4" skipped="4">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-01T18:23:42 IST" name="Default suite" finished-at="2023-11-01T18:24:41 IST" duration-ms="59214">
+  <suite started-at="2023-12-02T14:02:34 IST" name="Default suite" finished-at="2023-12-02T14:04:10 IST" duration-ms="96502">
     <groups>
     </groups>
-    <test started-at="2023-11-01T18:23:42 IST" name="Default test" finished-at="2023-11-01T18:24:41 IST" duration-ms="59214">
+    <test started-at="2023-12-02T14:02:34 IST" name="Default test" finished-at="2023-12-02T14:04:10 IST" duration-ms="96502">
       <class name="POM.LoginPage">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:POM.LoginPage@710636b0]" started-at="2023-11-01T18:23:34 IST" name="setUp" finished-at="2023-11-01T18:23:42 IST" duration-ms="7857" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:POM.LoginPage@710636b0]" started-at="2023-12-02T14:01:13 IST" name="setUp" finished-at="2023-12-02T14:02:34 IST" duration-ms="80315" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Test13(java.lang.String,java.lang.String)[pri:1, instance:POM.LoginPage@710636b0]" started-at="2023-11-01T18:23:42 IST" name="Test13" data-provider="Login" finished-at="2023-11-01T18:23:47 IST" duration-ms="4909" status="PASS">
+        <test-method signature="Test13(java.lang.String,java.lang.String)[pri:1, instance:POM.LoginPage@710636b0]" started-at="2023-12-02T14:02:34 IST" name="Test13" data-provider="Login" finished-at="2023-12-02T14:02:54 IST" duration-ms="20203" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,7 +27,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test13 -->
-        <test-method signature="Test13(java.lang.String,java.lang.String)[pri:1, instance:POM.LoginPage@710636b0]" started-at="2023-11-01T18:23:47 IST" name="Test13" data-provider="Login" finished-at="2023-11-01T18:23:51 IST" duration-ms="4698" status="PASS">
+        <test-method signature="Test13(java.lang.String,java.lang.String)[pri:1, instance:POM.LoginPage@710636b0]" started-at="2023-12-02T14:02:54 IST" name="Test13" data-provider="Login" finished-at="2023-12-02T14:03:05 IST" duration-ms="10529" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -43,7 +43,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test13 -->
-        <test-method signature="Test13(java.lang.String,java.lang.String)[pri:1, instance:POM.LoginPage@710636b0]" started-at="2023-11-01T18:23:51 IST" name="Test13" data-provider="Login" finished-at="2023-11-01T18:23:57 IST" duration-ms="5233" status="PASS">
+        <test-method signature="Test13(java.lang.String,java.lang.String)[pri:1, instance:POM.LoginPage@710636b0]" started-at="2023-12-02T14:03:05 IST" name="Test13" data-provider="Login" finished-at="2023-12-02T14:03:12 IST" duration-ms="7142" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -59,7 +59,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test13 -->
-        <test-method signature="Test13(java.lang.String,java.lang.String)[pri:1, instance:POM.LoginPage@710636b0]" started-at="2023-11-01T18:23:57 IST" name="Test13" data-provider="Login" finished-at="2023-11-01T18:24:01 IST" duration-ms="4771" status="PASS">
+        <test-method signature="Test13(java.lang.String,java.lang.String)[pri:1, instance:POM.LoginPage@710636b0]" started-at="2023-12-02T14:03:12 IST" name="Test13" data-provider="Login" finished-at="2023-12-02T14:03:22 IST" duration-ms="10437" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -75,7 +75,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test13 -->
-        <test-method signature="Test13(java.lang.String,java.lang.String)[pri:1, instance:POM.LoginPage@710636b0]" started-at="2023-11-01T18:24:01 IST" name="Test13" data-provider="Login" finished-at="2023-11-01T18:24:06 IST" duration-ms="4574" status="PASS">
+        <test-method signature="Test13(java.lang.String,java.lang.String)[pri:1, instance:POM.LoginPage@710636b0]" started-at="2023-12-02T14:03:22 IST" name="Test13" data-provider="Login" finished-at="2023-12-02T14:03:29 IST" duration-ms="7376" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -91,7 +91,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test13 -->
-        <test-method signature="Test13(java.lang.String,java.lang.String)[pri:1, instance:POM.LoginPage@710636b0]" started-at="2023-11-01T18:24:06 IST" name="Test13" data-provider="Login" finished-at="2023-11-01T18:24:11 IST" duration-ms="4666" status="PASS">
+        <test-method signature="Test13(java.lang.String,java.lang.String)[pri:1, instance:POM.LoginPage@710636b0]" started-at="2023-12-02T14:03:29 IST" name="Test13" data-provider="Login" finished-at="2023-12-02T14:03:36 IST" duration-ms="6754" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -107,11 +107,59 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test13 -->
-        <test-method signature="Test14()[pri:3, instance:POM.LoginPage@710636b0]" started-at="2023-11-01T18:24:11 IST" name="Test14" finished-at="2023-11-01T18:24:17 IST" duration-ms="6650" status="PASS">
+        <test-method signature="Test14()[pri:3, instance:POM.LoginPage@710636b0]" started-at="2023-12-02T14:03:36 IST" name="Test14" finished-at="2023-12-02T14:03:53 IST" duration-ms="16284" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //a[@id='profile'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.124, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50963}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50963/devtoo..., se:cdpVersion: 119.0.6045.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 141298ebb898aa8db7351d1fe99f0144]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //a[@id='profile'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.124, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50963}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50963/devtoo..., se:cdpVersion: 119.0.6045.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 141298ebb898aa8db7351d1fe99f0144
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+at POM.LoginPage.Test14(LoginPage.java:94)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test14 -->
-        <test-method signature="Test15()[pri:4, instance:POM.LoginPage@710636b0]" started-at="2023-11-01T18:24:17 IST" name="Test15" finished-at="2023-11-01T18:24:19 IST" duration-ms="2052" status="SKIP">
+        <test-method signature="Test15()[pri:4, instance:POM.LoginPage@710636b0]" started-at="2023-12-02T14:03:53 IST" name="Test15" finished-at="2023-12-02T14:03:55 IST" duration-ms="2084" status="SKIP">
           <exception class="org.testng.SkipException">
             <message>
               <![CDATA[TestCase Skipped]]>
@@ -151,7 +199,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test15 -->
-        <test-method signature="Test16(java.lang.String)[pri:5, instance:POM.LoginPage@710636b0]" started-at="2023-11-01T18:24:19 IST" name="Test16" data-provider="verifymail" finished-at="2023-11-01T18:24:21 IST" duration-ms="2039" status="SKIP">
+        <test-method signature="Test16(java.lang.String)[pri:5, instance:POM.LoginPage@710636b0]" started-at="2023-12-02T14:03:55 IST" name="Test16" data-provider="verifymail" finished-at="2023-12-02T14:03:57 IST" duration-ms="2048" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -198,7 +246,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test16 -->
-        <test-method signature="Test16(java.lang.String)[pri:5, instance:POM.LoginPage@710636b0]" started-at="2023-11-01T18:24:21 IST" name="Test16" data-provider="verifymail" finished-at="2023-11-01T18:24:23 IST" duration-ms="2045" status="SKIP">
+        <test-method signature="Test16(java.lang.String)[pri:5, instance:POM.LoginPage@710636b0]" started-at="2023-12-02T14:03:57 IST" name="Test16" data-provider="verifymail" finished-at="2023-12-02T14:03:59 IST" duration-ms="2108" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -245,7 +293,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test16 -->
-        <test-method signature="Test16(java.lang.String)[pri:5, instance:POM.LoginPage@710636b0]" started-at="2023-11-01T18:24:23 IST" name="Test16" data-provider="verifymail" finished-at="2023-11-01T18:24:25 IST" duration-ms="2038" status="SKIP">
+        <test-method signature="Test16(java.lang.String)[pri:5, instance:POM.LoginPage@710636b0]" started-at="2023-12-02T14:03:59 IST" name="Test16" data-provider="verifymail" finished-at="2023-12-02T14:04:01 IST" duration-ms="2055" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -292,7 +340,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test16 -->
-        <test-method signature="Test18(java.lang.String)[pri:6, instance:POM.LoginPage@710636b0]" started-at="2023-11-01T18:24:25 IST" name="Test18" data-provider="forgotmail" finished-at="2023-11-01T18:24:31 IST" duration-ms="5156" status="PASS">
+        <test-method signature="Test18(java.lang.String)[pri:6, instance:POM.LoginPage@710636b0]" started-at="2023-12-02T14:04:01 IST" name="Test18" data-provider="forgotmail" finished-at="2023-12-02T14:04:05 IST" duration-ms="4566" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -300,10 +348,76 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='form-group label-floating has-error']"}
+  (Session info: chrome=119.0.6045.124)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [141298ebb898aa8db7351d1fe99f0144, findElement {using=xpath, value=//div[@class='form-group label-floating has-error']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.124, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50963}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50963/devtoo..., se:cdpVersion: 119.0.6045.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 141298ebb898aa8db7351d1fe99f0144]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='form-group label-floating has-error']"}
+  (Session info: chrome=119.0.6045.124)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [141298ebb898aa8db7351d1fe99f0144, findElement {using=xpath, value=//div[@class='form-group label-floating has-error']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.124, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50963}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50963/devtoo..., se:cdpVersion: 119.0.6045.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 141298ebb898aa8db7351d1fe99f0144
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at POM.LoginPage.Test18(LoginPage.java:264)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test18 -->
-        <test-method signature="Test18(java.lang.String)[pri:6, instance:POM.LoginPage@710636b0]" started-at="2023-11-01T18:24:31 IST" name="Test18" data-provider="forgotmail" finished-at="2023-11-01T18:24:36 IST" duration-ms="5147" status="PASS">
+        <test-method signature="Test18(java.lang.String)[pri:6, instance:POM.LoginPage@710636b0]" started-at="2023-12-02T14:04:05 IST" name="Test18" data-provider="forgotmail" finished-at="2023-12-02T14:04:08 IST" duration-ms="2296" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -311,10 +425,74 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=119.0.6045.124)
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [141298ebb898aa8db7351d1fe99f0144, clickElement {id=72B2E65E8ADE70B76122AD4DB9EB8575_element_277}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.124, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50963}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50963/devtoo..., se:cdpVersion: 119.0.6045.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (141298ebb898aa8db7351d1fe99f0144)] -> xpath: //div[@id='login_form_without_popup']//div[@class='form-group agree-group col-md-12 text-center fpass']//a[@href='javascript:void(0);']]
+Session ID: 141298ebb898aa8db7351d1fe99f0144]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=119.0.6045.124)
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [141298ebb898aa8db7351d1fe99f0144, clickElement {id=72B2E65E8ADE70B76122AD4DB9EB8575_element_277}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.124, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50963}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50963/devtoo..., se:cdpVersion: 119.0.6045.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (141298ebb898aa8db7351d1fe99f0144)] -> xpath: //div[@id='login_form_without_popup']//div[@class='form-group agree-group col-md-12 text-center fpass']//a[@href='javascript:void(0);']]
+Session ID: 141298ebb898aa8db7351d1fe99f0144
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:242)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at POM.LoginPage.Test18(LoginPage.java:254)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test18 -->
-        <test-method signature="Test18(java.lang.String)[pri:6, instance:POM.LoginPage@710636b0]" started-at="2023-11-01T18:24:36 IST" name="Test18" data-provider="forgotmail" finished-at="2023-11-01T18:24:41 IST" duration-ms="5122" status="PASS">
+        <test-method signature="Test18(java.lang.String)[pri:6, instance:POM.LoginPage@710636b0]" started-at="2023-12-02T14:04:08 IST" name="Test18" data-provider="forgotmail" finished-at="2023-12-02T14:04:10 IST" duration-ms="2305" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -322,10 +500,74 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=119.0.6045.124)
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [141298ebb898aa8db7351d1fe99f0144, clickElement {id=72B2E65E8ADE70B76122AD4DB9EB8575_element_277}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.124, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50963}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50963/devtoo..., se:cdpVersion: 119.0.6045.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (141298ebb898aa8db7351d1fe99f0144)] -> xpath: //div[@id='login_form_without_popup']//div[@class='form-group agree-group col-md-12 text-center fpass']//a[@href='javascript:void(0);']]
+Session ID: 141298ebb898aa8db7351d1fe99f0144]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=119.0.6045.124)
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [141298ebb898aa8db7351d1fe99f0144, clickElement {id=72B2E65E8ADE70B76122AD4DB9EB8575_element_277}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.124, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50963}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50963/devtoo..., se:cdpVersion: 119.0.6045.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (141298ebb898aa8db7351d1fe99f0144)] -> xpath: //div[@id='login_form_without_popup']//div[@class='form-group agree-group col-md-12 text-center fpass']//a[@href='javascript:void(0);']]
+Session ID: 141298ebb898aa8db7351d1fe99f0144
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:242)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at POM.LoginPage.Test18(LoginPage.java:254)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test18 -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:POM.LoginPage@710636b0]" started-at="2023-11-01T18:24:41 IST" name="teardown" finished-at="2023-11-01T18:24:41 IST" duration-ms="189" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:POM.LoginPage@710636b0]" started-at="2023-12-02T14:04:10 IST" name="teardown" finished-at="2023-12-02T14:04:11 IST" duration-ms="280" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
