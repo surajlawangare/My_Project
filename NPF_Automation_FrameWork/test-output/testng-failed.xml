@@ -3,16 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="POM.LoginPage">
+      <class name="POM.PersonalDetails">
         <methods>
-          <include name="Test16" invocation-numbers="0 1 2"/>
-          <include name="teardown"/>
-          <include name="setUp"/>
-          <include name="Test14"/>
-          <include name="Test15"/>
-          <include name="Test18" invocation-numbers="0 1 2"/>
+          <include name="close"/>
+          <include name="personal"/>
+          <include name="start"/>
         </methods>
-      </class> <!-- POM.LoginPage -->
+      </class> <!-- POM.PersonalDetails -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
