@@ -5,6 +5,7 @@
     <classes>
       <class name="POM.PersonalDetails">
         <methods>
+          <include name="login"/>
           <include name="close"/>
           <include name="personal"/>
           <include name="start"/>

@@ -1,21 +1,160 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="0" failed="0" skipped="2">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-12-10T14:41:42 IST" name="Default suite" finished-at="2023-12-10T14:41:49 IST" duration-ms="6924">
+  <suite started-at="2024-02-24T22:38:17 IST" name="Default suite" finished-at="2024-02-24T22:38:17 IST" duration-ms="186">
     <groups>
     </groups>
-    <test started-at="2023-12-10T14:41:42 IST" name="Default test" finished-at="2023-12-10T14:41:49 IST" duration-ms="6924">
+    <test started-at="2024-02-24T22:38:17 IST" name="Default test" finished-at="2024-02-24T22:38:17 IST" duration-ms="186">
       <class name="POM.PersonalDetails">
-        <test-method is-config="true" signature="start()[pri:0, instance:POM.PersonalDetails@7d900ecf]" started-at="2023-12-10T14:41:23 IST" name="start" finished-at="2023-12-10T14:41:42 IST" duration-ms="19514" status="PASS">
+        <test-method is-config="true" signature="start()[pri:0, instance:POM.PersonalDetails@6f01b95f]" started-at="2024-02-24T22:38:07 IST" name="start" finished-at="2024-02-24T22:38:17 IST" duration-ms="10251" status="FAIL">
+          <exception class="io.github.bonigarcia.wdm.config.WebDriverManagerException">
+            <message>
+              <![CDATA[java.lang.NumberFormatException: For input string: "linux64"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.github.bonigarcia.wdm.config.WebDriverManagerException: java.lang.NumberFormatException: For input string: "linux64"
+at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1429)
+at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1195)
+at io.github.bonigarcia.wdm.WebDriverManager.fallback(WebDriverManager.java:1445)
+at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1426)
+at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1195)
+at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1419)
+at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1195)
+at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:427)
+at POM.PersonalDetails.start(PersonalDetails.java:20)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:376)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.NumberFormatException: For input string: "linux64"
+at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+at java.base/java.lang.Integer.parseInt(Integer.java:665)
+at java.base/java.lang.Integer.parseInt(Integer.java:781)
+at io.github.bonigarcia.wdm.managers.ChromeDriverManager.buildUrl(ChromeDriverManager.java:178)
+at io.github.bonigarcia.wdm.managers.ChromeDriverManager.buildUrl(ChromeDriverManager.java:155)
+at io.github.bonigarcia.wdm.online.UrlHandler.getCandidateUrl(UrlHandler.java:269)
+at io.github.bonigarcia.wdm.WebDriverManager.download(WebDriverManager.java:1277)
+at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1189)
+... 24 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.github.bonigarcia.wdm.config.WebDriverManagerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="personal()[pri:0, instance:POM.PersonalDetails@7d900ecf]" started-at="2023-12-10T14:41:42 IST" name="personal" finished-at="2023-12-10T14:41:49 IST" duration-ms="6847" status="PASS">
+        <test-method signature="login()[pri:0, instance:POM.PersonalDetails@6f01b95f]" started-at="2024-02-24T22:38:17 IST" name="login" finished-at="2024-02-24T22:38:17 IST" duration-ms="0" status="SKIP">
+          <exception class="io.github.bonigarcia.wdm.config.WebDriverManagerException">
+            <message>
+              <![CDATA[java.lang.NumberFormatException: For input string: "linux64"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.github.bonigarcia.wdm.config.WebDriverManagerException: java.lang.NumberFormatException: For input string: "linux64"
+at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1429)
+at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1195)
+at io.github.bonigarcia.wdm.WebDriverManager.fallback(WebDriverManager.java:1445)
+at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1426)
+at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1195)
+at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1419)
+at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1195)
+at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:427)
+at POM.PersonalDetails.start(PersonalDetails.java:20)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:376)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.NumberFormatException: For input string: "linux64"
+at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+at java.base/java.lang.Integer.parseInt(Integer.java:665)
+at java.base/java.lang.Integer.parseInt(Integer.java:781)
+at io.github.bonigarcia.wdm.managers.ChromeDriverManager.buildUrl(ChromeDriverManager.java:178)
+at io.github.bonigarcia.wdm.managers.ChromeDriverManager.buildUrl(ChromeDriverManager.java:155)
+at io.github.bonigarcia.wdm.online.UrlHandler.getCandidateUrl(UrlHandler.java:269)
+at io.github.bonigarcia.wdm.WebDriverManager.download(WebDriverManager.java:1277)
+at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1189)
+... 24 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.github.bonigarcia.wdm.config.WebDriverManagerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="personal()[pri:0, instance:POM.PersonalDetails@6f01b95f]" started-at="2024-02-24T22:38:17 IST" name="personal" finished-at="2024-02-24T22:38:17 IST" duration-ms="0" status="SKIP">
+          <exception class="io.github.bonigarcia.wdm.config.WebDriverManagerException">
+            <message>
+              <![CDATA[java.lang.NumberFormatException: For input string: "linux64"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.github.bonigarcia.wdm.config.WebDriverManagerException: java.lang.NumberFormatException: For input string: "linux64"
+at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1429)
+at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1195)
+at io.github.bonigarcia.wdm.WebDriverManager.fallback(WebDriverManager.java:1445)
+at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1426)
+at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1195)
+at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1419)
+at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1195)
+at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:427)
+at POM.PersonalDetails.start(PersonalDetails.java:20)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:376)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.NumberFormatException: For input string: "linux64"
+at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+at java.base/java.lang.Integer.parseInt(Integer.java:665)
+at java.base/java.lang.Integer.parseInt(Integer.java:781)
+at io.github.bonigarcia.wdm.managers.ChromeDriverManager.buildUrl(ChromeDriverManager.java:178)
+at io.github.bonigarcia.wdm.managers.ChromeDriverManager.buildUrl(ChromeDriverManager.java:155)
+at io.github.bonigarcia.wdm.online.UrlHandler.getCandidateUrl(UrlHandler.java:269)
+at io.github.bonigarcia.wdm.WebDriverManager.download(WebDriverManager.java:1277)
+at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1189)
+... 24 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.github.bonigarcia.wdm.config.WebDriverManagerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- personal -->
-        <test-method is-config="true" signature="close()[pri:0, instance:POM.PersonalDetails@7d900ecf]" started-at="2023-12-10T14:41:49 IST" name="close" finished-at="2023-12-10T14:41:49 IST" duration-ms="291" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:POM.PersonalDetails@6f01b95f]" started-at="2024-02-24T22:38:17 IST" name="close" finished-at="2024-02-24T22:38:17 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
